@@ -1,6 +1,6 @@
 # FD-EMC
 
-Source code accompanying the **unpublished manuscript**:
+Source code accompanying the following paper:
 
 **Feedback-Driven Embodied LLM for Coupled Motion Planning and Cooperative Caching in mRSU-Assisted Vehicular Edge Computing**
 
