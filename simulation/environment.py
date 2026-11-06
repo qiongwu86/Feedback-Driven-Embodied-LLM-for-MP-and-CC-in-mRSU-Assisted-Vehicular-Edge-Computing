@@ -26,7 +26,9 @@ class MRSUEnvironment:
     def __init__(self, config: MRSUSimulationConfig):
         self.config = config
         self.rng = np.random.default_rng(config.seed)
-        self.train_data, self.test_data = load_preprocessed_movielens("datasets", "ml1m")
+        self.train_data, self.test_data = load_preprocessed_movielens(
+            Path(__file__).resolve().parents[1] / "datasets", "ml1m"
+        )
         self.train_rows = [
             _normalize_row(row)
             for row in self.train_data

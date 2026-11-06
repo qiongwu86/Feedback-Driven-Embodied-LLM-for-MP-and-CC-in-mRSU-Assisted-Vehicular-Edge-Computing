@@ -1,0 +1,8 @@
+{
+  "sources": [],
+  "groups": ["comparison", "ablation", "models", "vehicles"],
+  "round_capacity": 200,
+  "errorbar_width": "method-mean",
+  "bar_step_pixels": 8.0,
+  "formats": ["svg", "pdf", "png"]
+}

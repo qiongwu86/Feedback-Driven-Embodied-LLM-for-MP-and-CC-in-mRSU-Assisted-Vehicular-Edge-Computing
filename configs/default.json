@@ -1,0 +1,13 @@
+{
+  "rounds": 100,
+  "decision_interval": 10,
+  "vehicle_num": 50,
+  "user_num": 50,
+  "movie_num": 2000,
+  "request_min": 670,
+  "request_max": 690,
+  "road_length": 1000.0,
+  "rsu_cache": 200,
+  "model_name": "qwen3.7-flash",
+  "agent": "auto"
+}

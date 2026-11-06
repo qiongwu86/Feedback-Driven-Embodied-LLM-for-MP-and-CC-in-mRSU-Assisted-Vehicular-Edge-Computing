@@ -1,0 +1,9 @@
+numpy
+scipy
+matplotlib
+openai
+torch
+cvxpy
+osqp
+ortools
+google-genai
